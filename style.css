@@ -1,5 +1,5 @@
 html{
-    background-image: url(/rock-paper-scissors-pattern-background-vector-4521145.jpeg);
+    background-image: url(images/rock-paper-scissors-pattern-background-vector-4521145.jpeg);
 }
 .container {
     border: 2px solid black;
@@ -15,6 +15,7 @@ html{
     line-height: 50px;
 
 }
+   
 .btns {
     padding-top: 10px;
     width: fit-content;
@@ -48,3 +49,20 @@ button:hover{
 .reset {
     width: 300px;
 }
+
+@media screen and (max-width:600px) {
+    .container{
+        font-size: 2rem;
+        width: 350px;
+    }
+    .score{
+        font-size: 1.55rem;
+    }
+    button {
+        width: fit-content;
+        padding: 0 10px;
+    }
+    .reset {
+        width: 150px;
+    }
+} 
