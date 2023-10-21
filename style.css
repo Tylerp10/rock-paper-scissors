@@ -51,7 +51,7 @@ button:hover{
 @media screen and (max-width:600px) {
     .container{
         font-size: 2rem;
-        width: 300px;
+        width: 350px;
     }
     .score{
         font-size: 1.55rem;
